@@ -10,7 +10,7 @@ async function Navbar() {
         <header className='px-5 py-3 bg-white shadow-sm font-work-sans'>
             <nav className='flex justify-between items-center'>
                 <Link href='/'>
-                    <h1 className='text-3xl text-black'>PitchPoint</h1>
+                    <h1 className='text-3xl text-black font-extrabold'>Pitch<span className='text-primary'>Point</span></h1>
                 </Link>
 
                 <div className='flex items-center gap-5 text-black'>
