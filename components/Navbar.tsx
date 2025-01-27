@@ -9,7 +9,7 @@ async function Navbar() {
     return (
         <header className='px-5 py-3 bg-white shadow-sm font-work-sans'>
             <nav className='flex justify-between items-center'>
-                <Link href='/'>
+                <Link href='/public'>
                     <h1 className='text-3xl text-black font-extrabold'>Pitch<span className='text-primary'>Point</span></h1>
                 </Link>
 
