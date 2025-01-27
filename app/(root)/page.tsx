@@ -11,7 +11,7 @@ export default async function Home({searchParams}: {
             views: 55,
             author: {_id: 1, name: 'Arthur Vishnevsky'},
             _id: 1,
-            description: 'lorem20',
+            description: 'lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20 lorem20',
             image:
                 'https://images.unsplash.com/photo-1734784547207-7ad9f04c1f0a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
             category: 'Robots',
@@ -38,7 +38,7 @@ export default async function Home({searchParams}: {
                 <ul className="mt-7 card_grid">
                     {posts?.length > 0 ? (
                         posts.map((post: StartupCardType, index: number) => (
-                            <StartupCard key={post?._id} post={post} />
+                            <StartupCard key={post?._id} post={post}/>
                         ))
                     ) : (
                         <p className="no-results">No startups found</p>
