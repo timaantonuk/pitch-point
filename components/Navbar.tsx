@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from "next/link";
 import {auth, signOut, signIn} from "@/auth";
+import {Session} from "next-auth";
+
+
 
 async function Navbar() {
 
-    const session = await auth()
+    const session: Session | null = await auth()
+
 
     return (
         <header className='px-5 py-3 bg-white shadow-sm font-work-sans'>
